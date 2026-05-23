@@ -291,3 +291,23 @@ body { background: var(--bg); color: var(--white); font-family: var(--font); fon
   .form-grid { grid-template-columns: 1fr; }
   .topbar { padding: 0 16px; }
 }
+
+/* ===== DROPDOWN OPTIONS FIX ===== */
+select.form-input option {
+  background: #0d1b2e;
+  color: #ffffff;
+}
+select.form-input option:hover,
+select.form-input option:focus,
+select.form-input option:checked {
+  background: #1e3a5f;
+  color: #ffffff;
+}
+select.form-input {
+  background-color: #071015;
+  color: #ffffff;
+}
+.login-field select option {
+  background: #0d1b2e;
+  color: #ffffff;
+}
